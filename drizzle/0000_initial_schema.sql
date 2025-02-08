@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS posts;
+
+CREATE TABLE posts (
+  id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+  title TEXT NOT NULL,
+  content TEXT NOT NULL,
+  created_at INTEGER DEFAULT (unixepoch())
+);

@@ -1,0 +1,14 @@
+name = "deepresearch-hub"
+main = "src/index.ts"
+compatibility_date = "2024-02-01"
+
+[site]
+bucket = "./public"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "deepresearch_db"
+database_id = "86a686ee-29e6-45c9-becc-fae4c8cd61fe"
+
+[vars]
+ENVIRONMENT = "development"
